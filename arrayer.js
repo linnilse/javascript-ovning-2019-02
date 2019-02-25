@@ -37,12 +37,3 @@ for (let i = 0; i < worstArrayYet.length; i++) {
     }
 }
 console.log(sum2);
-
-
-/*Vi kan använda typeof eller isNaN() för att vad för typ någonting är, om det t.ex. är en
-funktion eller en sträng. Ta hjälp av typeof eller `isNaN()för att lösa denna uppgift.
-Du ska loopa igenom arrayen worstArrayYet och ska sedan console.logga varje sträng som
-förekommer i arrayen. Men om värdet i arrayen är ett nummer ska det värdet läggas till i var
-sum; för att sedan console.loggas. Om det är något annat än en sträng eller ett nummer ska
-ingenting ske.
- */
